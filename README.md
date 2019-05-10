@@ -7,4 +7,3 @@
 
 ![avatar](http://blogdata.zhaolibin.com/wechat/wechat_myqtdbj.jpg)
 
-![avatar](http://blogdata.zhaolibin.com/wechat/wechat.jpg)
