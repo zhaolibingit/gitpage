@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "python threading 多线程"
-date:   2018-10-10 13:31:01 +0800
+date:   2017-01-05 13:31:01 +0800
 categories: python
-tag: threadind
+tag: python进阶
 ---
 
 * content
