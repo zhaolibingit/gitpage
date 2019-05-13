@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "python threading 多线程"
+title:  "python进阶： threading 多线程"
 date:   2017-01-05 13:31:01 +0800
 categories: python
 tag: python进阶

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "python集合（set）类型的操作"
+title:  "python基础：集合（set）类型的操作"
 date:   2017-02-03 13:31:01 +0800
 categories: python
 tag: python基础

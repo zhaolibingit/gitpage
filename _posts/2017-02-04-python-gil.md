@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "python的全局解释锁（GIL）"
+title:  "python进阶：全局解释锁（GIL）"
 date:   2017-02-04 13:31:01 +0800
 categories: python
 tag: python进阶

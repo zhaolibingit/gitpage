@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "python基础模块介绍"
+title:  "python基础：常用模块介绍"
 date:   2016-12-01 13:31:01 +0800
 categories: python
 tag: python基础
