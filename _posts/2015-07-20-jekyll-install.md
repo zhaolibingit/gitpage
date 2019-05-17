@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "centos7安装配置jekyll"
-date:   2017-07-20 13:31:01 +0800
+date:   2015-07-20 13:31:01 +0800
 categories: jekyll
 tag: jekyll
 ---
