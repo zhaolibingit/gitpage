@@ -208,6 +208,66 @@ print time.localtime()#当前本地时间
 ```
 #### re模块
 
+
+python的正则表达式：
+
+	元字符
+		.           任意字符
+		[.....]     指定范围
+		[^.....]    指定范围外
+		?           匹配0次或一次
+		+           匹配1次或多次
+		{m}         指定次数
+		{m,n}       至少m，至多n
+		{0,n}       至多n次
+		{m,}        至少m次
+		^           行首
+		$           行尾
+		pat1|pat2   或者
+		(.....)     分组
+		\b          单词边界
+		[0-9]:\b    任意数字，\d 
+		[0-9a-zA-Z]:\w,\W对\w取反
+		\s：任意空白字符，[\n\t\f\v\r],\S
+		\nn
+        
+
+		(*|+|?|{})?:使用非贪婪模式
+
+
+	match对象：
+		可以指定起始位置，结束位置，匹配到的字符等
+    
+    
+search只返回第一次匹配到的结果
+findall返回多次
+
+	re.search:返回一个macth对象
+		match对象的
+			属性
+				string
+				re
+				end
+```
+match（）函数是在string的开始位置匹配，如果不匹配，则返回None
+
+search()会扫描整个string查找匹配；也就是说match（）只有在0位置匹配成功的话才有返回，
+
+
+例如：
+
+print(re.match(‘super’, ‘superstition’).span())   会返回(0, 5)
+
+而print(re.match(‘super’, ‘insuperable’))   则返回None
+
+search()会扫描整个字符串并返回第一个成功的匹配
+
+例如：print(re.search(‘super’, ‘superstition’).span())返回(0, 5)
+
+print(re.search(‘super’, ‘insuperable’).span())返回(2, 7)
+```
+
+
 ```python
 import re
 
