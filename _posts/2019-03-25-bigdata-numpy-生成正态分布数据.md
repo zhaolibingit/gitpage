@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "大数据：python numpy 生成正态分布数据"
-date:   2019-03-24 13:31:01 +0800
+date:   2019-03-25 13:31:01 +0800
 categories: 大数据
 tag: 数据分析
 ---

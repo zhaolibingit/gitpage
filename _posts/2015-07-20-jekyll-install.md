@@ -42,3 +42,5 @@ gem install jekyll-feed
 gem install jekyll-seo-tag
 ```
  
+#### 官方文档
+http://jekyllcn.com/docs/home/
