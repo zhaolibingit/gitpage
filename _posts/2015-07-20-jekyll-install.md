@@ -44,3 +44,6 @@ gem install jekyll-seo-tag
  
 #### 官方文档
 http://jekyllcn.com/docs/home/
+
+#### 参考文档
+https://www.cnblogs.com/strick/p/5484779.html
