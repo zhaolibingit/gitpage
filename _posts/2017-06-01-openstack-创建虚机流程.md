@@ -76,3 +76,5 @@ tag: openstack
 18. nova-compute为hypervisor的驱动生成数据，并且通过libvirt或者其他API让hypervisor执行请求来创建虚拟机。这样虚拟机创建的交互流程基本结束，剩下的步骤就是hypervisor最终创建虚拟机的流程。
 
 然后nova-api去轮训nova  database，查看虚拟机的状态是否变成正确创建虚拟机的状态(Active,none,sunning)，若状态正确，则虚拟机创建正常成功。
+
+![](http://blogdata.zhaolibin.com/FpnitAuSz-XCRD8bJvB1mxr__ND-)
