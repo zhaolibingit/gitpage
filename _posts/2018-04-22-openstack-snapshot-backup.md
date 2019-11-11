@@ -159,3 +159,5 @@ $ rbd snap rm nova-pool/vm@nova_vm_snap
 - data striped:这个块在ceph里面是被切割成若干小块来保存，不然1PB的块怎么存的下。
 - thin-provisioned:精简置备，我认为的很容易被人误解的RBD的一个属性，1TB的集群是能创建无数1PB的块的。说白了就是，块的大小和在ceph中实际占用的大小是没有关系的，甚至，刚创建出来的块是不占空间的，今后用多大空间，才会在ceph中占用多大空间。打个比方就是，你有一个32G的U盘，存了一个2G的电影，那么RBD大小就类似于32G，而2G就相当于在ceph中占用的空间。
 
+#### ceph rbd快照原理解析
+https://www.sysnote.org/2016/02/28/ceph-rbd-snap/
